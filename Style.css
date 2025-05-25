@@ -1,0 +1,123 @@
+body { 
+  margin: 0; 
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+  background-color: #fff; 
+  color: #333; 
+} 
+
+
+.hero-header {
+  background: url('/img/estudos.jpg') center/cover no-repeat;
+  position: relative;
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-left: 100px;
+}
+
+  
+
+.hero-header::before { 
+  content: ''; 
+  position: absolute; 
+  width: 150vw; 
+  height: 70vh; 
+  background-color: rgba(0, 80, 160, 0.7); 
+  z-index: 0; 
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border-radius: 30px; 
+} 
+  
+
+.navbar { 
+  position: relative; 
+  z-index: 1; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 100px; 
+  width: 38%; 
+  top: 10%;
+  left: 4%; 
+} 
+
+  
+.navbar .logo { 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+} 
+  
+
+.navbar nav ul { 
+  list-style: none; 
+  display: flex; 
+  gap: 30px; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+
+.navbar nav a { 
+  text-decoration: none; 
+  color: white; 
+  font-weight: 500; 
+  transition: color 0.3s; 
+} 
+  
+
+.navbar nav a:hover, 
+.navbar nav a.active { 
+  text-decoration: underline; 
+} 
+
+  
+.hero-content { 
+  top: 55px;
+  z-index: 1; 
+  margin-left: 150px;
+  position: relative; 
+  text-align: left; 
+  max-width: 800px; 
+} 
+
+
+.hero-content h1 { 
+  font-size: 3rem; 
+  margin: 0 0 10px; 
+  font-weight: 800; 
+} 
+  
+
+.hero-content p { 
+  font-size: 1.4rem; 
+  font-weight: 400; 
+  color: #e6e6e6;
+  margin: 0 0 200px;  
+} 
+  
+
+.kids-banner { 
+  background: transparent; 
+  padding: 0; 
+  margin: 0; 
+  position: relative; 
+  top: -78px; 
+  z-index: 2; 
+  
+} 
+
+  
+.kids-banner img { 
+  height: auto;
+  object-fit: contain; 
+  display: block; 
+  margin: 0 auto; 
+  background: transparent;
+   
+} 
