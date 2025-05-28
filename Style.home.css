@@ -7,7 +7,7 @@ body {
 
 
 .hero-header {
-  background: url('/img/estudos.jpg') center/cover no-repeat;
+
   position: relative;
   height: 80vh;
   color: white;
@@ -24,8 +24,8 @@ body {
 .hero-header::before { 
   content: ''; 
   position: absolute; 
-  width: 150vw; 
-  height: 70vh; 
+  width: 170vw; 
+  height: 50vh; 
   background-color: rgba(0, 80, 160, 0.7); 
   z-index: 0; 
   top: 60%; 
@@ -107,22 +107,18 @@ body {
 } 
   
 
-.kids-banner { 
-  background: transparent; 
-  padding: 0; 
-  margin: 0; 
-  position: relative; 
-  top: -78px; 
-  z-index: 2; 
-  
-} 
+.kids-banner img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
 
   
-.kids-banner img { 
-  height: auto;
-  object-fit: contain; 
-  display: block; 
-  margin: 0 auto; 
-  background: transparent;
-   
-} 
+.kids-banner {
+  position: relative;
+  margin-top: -237px;
+  z-index: 2;
+}
